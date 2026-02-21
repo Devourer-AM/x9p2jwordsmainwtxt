@@ -1,4 +1,4 @@
-local url = "https://raw.githubusercontent.com/Quavix/Roblox-Last-Letter-Word-List/refs/heads/main/words.txt"
+local url = "https://raw.githubusercontent.com/Quavix/Roblox-Last-Letter-Word-List-And-Scripts/refs/heads/main/words.txt"
 
 local Words = {}
 local loaded = false
@@ -114,7 +114,7 @@ local title = Instance.new("TextLabel", b)
 title.Size = UDim2.new(1, -10, 0, 25)
 title.Position = UDim2.new(0,5,0,5)
 title.BackgroundTransparency = 1
-title.Text = "Type letters - get matching words"
+title.Text = "Word Finder"
 title.TextColor3 = Color3.fromRGB(255, 255, 255)
 title.Font = Enum.Font.GothamBold
 title.TextSize = 14
@@ -183,7 +183,7 @@ local info = Instance.new("TextLabel", b)
 info.Size = UDim2.new(1, -10, 0, 30)
 info.Position = UDim2.new(0,5,0,85)
 info.BackgroundTransparency = 1
-info.Text = "Please Wait For A Moment. The Dictionary is Updating..."
+info.Text = "Updated Dictionary (462k)"
 info.TextColor3 = Color3.fromRGB(100, 255, 100)
 info.Font = Enum.Font.Gotham
 info.TextSize = 10
@@ -445,3 +445,4 @@ spawn(function()
     end
 
 end)
+
